@@ -1,0 +1,1 @@
+# Exercicio_Gqs_Dia_27_05_26
