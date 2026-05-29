@@ -35,4 +35,19 @@ public class CalculadoraDescontoTest {
         
         assertEquals(resultadoEsperado, resultadoObtido, 0.01);
     }
+
+    @Test
+    public void testCompraComDezPorCentoDeDesconto() {
+        // 1. DADO
+        CalculadoraDesconto calculadora = new CalculadoraDesconto();
+        double valorCompra = 1000.0;
+
+        // 2. QUANDO
+        double resultadoObtido = calculadora.calcularValorFinal(valorCompra);
+
+        // 3. ENTÃO (1000 - 10% = 900.0)
+        double resultadoEsperado = 900.0;
+        
+        assertEquals(resultadoEsperado, resultadoObtido, 0.01);
+    }
 }
