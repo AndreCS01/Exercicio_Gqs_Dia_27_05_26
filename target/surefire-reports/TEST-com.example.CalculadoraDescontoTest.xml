@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.CalculadoraDescontoTest" time="0.142" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.CalculadoraDescontoTest" time="0.105" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/25.0.2-ms/lib"/>
-    <property name="sun.java.command" value="/workspaces/Exercicio_Gqs_Dia_27_05_26/target/surefire/surefirebooter-20260529013954326_3.jar /workspaces/Exercicio_Gqs_Dia_27_05_26/target/surefire 2026-05-29T01-39-54_190-jvmRun1 surefire-20260529013954326_1tmp surefire_0-20260529013954326_2tmp"/>
+    <property name="sun.java.command" value="/workspaces/Exercicio_Gqs_Dia_27_05_26/target/surefire/surefirebooter-20260529014631489_3.jar /workspaces/Exercicio_Gqs_Dia_27_05_26/target/surefire 2026-05-29T01-46-31_364-jvmRun1 surefire-20260529014631489_1tmp surefire_0-20260529014631489_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/Exercicio_Gqs_Dia_27_05_26/target/test-classes:/workspaces/Exercicio_Gqs_Dia_27_05_26/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.3/junit-jupiter-5.11.3.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.3/junit-jupiter-params-5.11.3.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.3/junit-jupiter-engine-5.11.3.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.11.3/junit-platform-engine-1.11.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspaces/Exercicio_Gqs_Dia_27_05_26/target/surefire/surefirebooter-20260529013954326_3.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/Exercicio_Gqs_Dia_27_05_26/target/surefire/surefirebooter-20260529014631489_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -54,10 +54,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testCompraExatamenteCemReais" classname="com.example.CalculadoraDescontoTest" time="0.053"/>
+  <testcase name="testCompraExatamenteCemReais" classname="com.example.CalculadoraDescontoTest" time="0.031"/>
   <testcase name="testCompraComCincoPorCentoDeDesconto" classname="com.example.CalculadoraDescontoTest" time="0.001"/>
   <testcase name="testCompraAbaixoDeCemReaisSemDesconto" classname="com.example.CalculadoraDescontoTest" time="0.001"/>
-  <testcase name="testCompraComValorNegativoDeveLancarExcecao" classname="com.example.CalculadoraDescontoTest" time="0.002"/>
+  <testcase name="testCompraComValorNegativoDeveLancarExcecao" classname="com.example.CalculadoraDescontoTest" time="0.005"/>
   <testcase name="testCompraComDezPorCentoDeDesconto" classname="com.example.CalculadoraDescontoTest" time="0.001"/>
-  <testcase name="testCompraExatamenteQuinhentosReais" classname="com.example.CalculadoraDescontoTest" time="0.001"/>
+  <testcase name="testCompraExatamenteQuinhentosReais" classname="com.example.CalculadoraDescontoTest" time="0.002"/>
 </testsuite>
