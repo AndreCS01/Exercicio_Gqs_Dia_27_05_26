@@ -4,6 +4,10 @@ public class CalculadoraDesconto {
 
         public double calcularValorFinal(double valorCompra) {
 
+            if (valorCompra < 0) {
+            throw new IllegalArgumentException("Valor da compra não pode ser negativo.");
+        }
+
             // Regra 3: Compras a partir de 500 recebem 10% de desconto
         if (valorCompra >= 500.0) {
             return valorCompra - (valorCompra * 0.10);

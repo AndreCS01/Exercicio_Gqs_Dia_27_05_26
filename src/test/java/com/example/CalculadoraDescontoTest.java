@@ -2,6 +2,7 @@ package com.example;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculadoraDescontoTest {
 
@@ -79,5 +80,17 @@ public class CalculadoraDescontoTest {
         double resultadoEsperado = 450.0;
         
         assertEquals(resultadoEsperado, resultadoObtido, 0.01);
+    }
+
+    @Test
+    public void testCompraComValorNegativoDeveLancarExcecao() {
+        // 1. DADO
+        CalculadoraDesconto calculadora = new CalculadoraDesconto();
+        double valorCompraInvalido = -50.0;
+
+        // 2 e 3. QUANDO / ENTÃO
+        assertThrows(IllegalArgumentException.class, () -> {
+            calculadora.calcularValorFinal(valorCompraInvalido);
+        });
     }
 }
